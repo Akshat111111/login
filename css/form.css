@@ -54,6 +54,13 @@ input,
     text-transform: capitalize;
 }
 
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  text-transform: none;
+}
+
+
 input::placeholder{
     color: #fff;
 }
